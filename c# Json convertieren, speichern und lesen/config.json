@@ -1,0 +1,10 @@
+{
+  "token": "t0k3n",
+  "port": 2121,
+  "timeStamp": "2021-12-10T07:12:24.4314238+01:00",
+  "tags": [
+    "string1",
+    "string2",
+    "string3"
+  ]
+}
