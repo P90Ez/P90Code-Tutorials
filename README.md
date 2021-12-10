@@ -13,4 +13,4 @@ Video: *coming soon*
 ### Einfache Get-Requests & Get-Requests mit Body
 *coming soon*
 
-## [Twitch Endepunkte (anderes Repository)](https://github.com/P90Ez/Twitch-Endpunkte)
+## [Twitch Endpunkte (anderes Repository)](https://github.com/P90Ez/Twitch-Endpunkte)
