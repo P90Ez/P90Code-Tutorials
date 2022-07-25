@@ -7,7 +7,7 @@ namespace Events_Tutorial
         static void Main(string[] args)
         {
             var _WichtigeKlasse = new WichtigeKlasse();
-            _WichtigeKlasse.MySuperEvent += _WichtigeKlasse_MySuperEvent;
+            _WichtigeKlasse.MySuperEvent += _WichtigeKlasse_MySuperEvent; //Methode an Event "binden" (=> subscriben)
             _WichtigeKlasse.DoSomeThing();
         }
 
@@ -22,13 +22,13 @@ namespace Events_Tutorial
 
         public WichtigeKlasse()
         {
-            MySuperEvent += EventGetriggered;
+            MySuperEvent += EventGetriggered; //Methode an Event "binden" (=> subscriben)
         }
 
         private void EventGetriggered(object sender, CostumEventArgs args)
         {
-            if (args == null) return;
-            Console.WriteLine(args.RandomInt); 
+            if (args == null) return; //Überprüfung
+            Console.WriteLine(args.RandomInt); //Random Zahl in Console ausgeben lassen
         }
 
         public void DoSomeThing()
@@ -38,8 +38,8 @@ namespace Events_Tutorial
              */
             Random rnd = new Random();
             int rndint = rnd.Next();
-            CostumEventArgs args = new CostumEventArgs() { RandomInt = rndint };
-            MySuperEvent?.Invoke(this, args);
+            CostumEventArgs args = new CostumEventArgs() { RandomInt = rndint }; //EventArgs erstellen
+            MySuperEvent?.Invoke(this, args); //Event "ausführen"
         }
     }
     internal class CostumEventArgs
