@@ -8,7 +8,7 @@ Verlinkungen führen zum zugehörigen Source Code.
 Video: https://youtu.be/BwQZbmwVEWA
 [![C# Json Konvertieren, Lesen und Speichern - Tutorial](http://img.youtube.com/vi/BwQZbmwVEWA/maxresdefault.jpg)](https://youtu.be/BwQZbmwVEWA)
 
-## HTTP Requests
+## HTTP Requests - API Zugriffe
 ### [Erklärung & Komplettlösung](https://github.com/P90Ez/P90Code-Tutorials/blob/3e36f6fe42a16d4c6774147d7fcd0193680f3874/C%23%20WebRequests/Program.cs)
 Video: https://youtu.be/0Vw5Ga7GpZQ
 [![Web Requests erklärt + C# Code! (Deutsch)](http://img.youtube.com/vi/0Vw5Ga7GpZQ/maxresdefault.jpg)](https://youtu.be/0Vw5Ga7GpZQ)
