@@ -27,6 +27,7 @@ namespace WebRequests
             {
                 using (HttpClient client = new HttpClient())
                 {
+                    //client.DefaultRequestHeaders.Add("Authorization", $"Bearer ..."); - optional: Header mit Token, Client ID,...
                     var request = new HttpRequestMessage //Anfrage erstellen
                     {
                         Method = method,
